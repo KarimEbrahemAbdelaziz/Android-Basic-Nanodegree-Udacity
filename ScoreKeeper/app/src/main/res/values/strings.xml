@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">American Football Score Keeper</string>
+    <string name="teama_title">Team A</string>
+    <string name="teamb_title">Team B</string>
+    <string name="default_score">0</string>
+    <string name="add_6points">+6 Points</string>
+    <string name="add_3points">+3 Points</string>
+    <string name="add_2points">+2 Points</string>
+    <string name="add_1point">+1 Point</string>
+    <string name="reset_button">Reset</string>
+</resources>

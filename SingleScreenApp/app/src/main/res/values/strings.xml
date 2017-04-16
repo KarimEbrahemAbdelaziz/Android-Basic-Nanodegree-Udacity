@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Stylista Fashion Store</string>
+    <string name="store_location">Badr City, Cairo, Egypt</string>
+    <string name="store_website">www.stylista.com</string>
+    <string name="logo_for_store">logo_for_store</string>
+    <string name="photo_of_store">photo_of_store</string>
+    <string name="store_location_icon">store_location_icon</string>
+    <string name="store_website_icon">store_website_icon</string>
+    <string name="store_about">About :</string>
+    <string name="about_store_content">"          "Stylista modernised women.
+        As the sixties drew to a close, Casablanca-born hairdresser Joseph Ettedgui looked out from his salon,
+        a chic King’s Road focal point, and imagined a revolution in the way we buy fashion. With his keen instincts,
+        Joseph created a boutique that was more magazine than clothes shop - somewhere to discover new ideas,
+        new styles and new designers. Joseph brought Kenzo and Castelbajac to the world’s attention,
+        then as his influence grew he championed Azzedine Alaia and Yohji Yamamoto,
+        chose Norman Foster to design a store, and was the first in London to sell Prada.
+        Even after his own eponymous label was launched to acclaim, Joseph continued to showcase
+        the designers he had discovered and nurtured.</string>
+    <string name="shirts_logo_for_store">shirts_logo_for_store</string>
+</resources>

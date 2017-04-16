@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- MatchParent view style.-->
+    <style name="match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Background header style. -->
+    <style name="background_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@color/background_header_color</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Background header landscape style. -->
+    <style name="background_landscape_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/background_header_color</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Trophy Image style. -->
+    <style name="trophy_image_style">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Welcome to Text style. -->
+    <style name="welcome_text_style">
+        <item name="android:textColor">@color/logo_text_white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Quizzy Text style. -->
+    <style name="quizzy_text_style">
+        <item name="android:textColor">@color/logo_text_white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <!-- View between each question style. -->
+    <style name="view_style">
+        <item name="android:background">@color/darker_gray</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <!-- Scrollable Linear layout style. -->
+    <style name="scroll_linear_style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Question layout style. -->
+    <style name="question_linear_style">
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Question style. -->
+    <style name="question_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- RadioGroup style. -->
+    <style name="radioGroup_style">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- RadioButton style. -->
+    <style name="radioButton_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- EditText style. -->
+    <style name="answer_editText">
+        <item name="android:layout_marginRight">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- CheckBox style. -->
+    <style name="checkBox_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Relative layout for Submit button style. -->
+    <style name="button_layout_style">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Submit button style. -->
+    <style name="button_style">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">155dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Text sytle in landscape. -->
+    <style name="quizzy_landscape_style">
+        <item name="android:textColor">@color/logo_text_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+</resources>

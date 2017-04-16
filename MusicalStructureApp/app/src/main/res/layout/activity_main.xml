@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.karim.musicalstructureapp.MainActivity">
+
+    <TextView
+        style="@style/TitleTextView"
+        android:text="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnPlaylist"
+            style="@style/MainActivityButtons"
+            android:text="@string/charts_and_playLists" />
+
+        <Button
+            android:id="@+id/btnAlbums"
+            style="@style/MainActivityButtons"
+            android:text="@string/albums" />
+
+        <Button
+            android:id="@+id/btnAllSongs"
+            style="@style/MainActivityButtons"
+            android:text="@string/all_songs" />
+
+        <Button
+            android:id="@+id/btnNowPlaying"
+            style="@style/MainActivityButtons"
+            android:text="@string/now_playing" />
+
+        <Button
+            android:id="@+id/btnArtists"
+            style="@style/MainActivityButtons"
+            android:text="@string/artists" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

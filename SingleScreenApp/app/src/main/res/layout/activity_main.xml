@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karim.singlescreenapp.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/app_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/store_image_info"
+            android:layout_width="match_parent"
+            android:layout_height="255dp">
+            <ImageView
+                android:contentDescription="@string/photo_of_store"
+                android:src="@drawable/backg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@color/app_background_color"
+            android:layout_below="@+id/store_image_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/store_name_info"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/shirts"
+                        style="@style/head_image_style"
+                        android:contentDescription="@string/shirts_logo_for_store" />
+                    <TextView
+                        style="@style/head_text_style"
+                        android:text="@string/app_name" />
+                </LinearLayout>
+
+                <View
+                    android:layout_below="@+id/app_name"
+                    style="@style/view_line_style">
+                </View>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/location_info"
+                android:layout_below="@+id/store_name_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:contentDescription="@string/store_location_icon"
+                    android:src="@drawable/placeholder"
+                    style="@style/icon_style" />
+
+                <TextView
+                    android:text="@string/store_location"
+                    style="@style/icon_text_style" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/website_info"
+                android:layout_below="@+id/location_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:contentDescription="@string/store_website_icon"
+                    android:src="@drawable/website"
+                    style="@style/icon_style"/>
+                <TextView
+                    android:text="@string/store_website"
+                    style="@style/icon_text_style"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/about_info"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/website_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/about_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        style="@style/head_image_style"
+                        android:src="@drawable/shirts"
+                        android:contentDescription="@string/shirts_logo_for_store" />
+                    <TextView
+                        android:text="@string/store_about"
+                        style="@style/head_text_style" />
+                </LinearLayout>
+
+                <View
+                    android:layout_below="@+id/about_text"
+                    style="@style/view_line_style">
+                </View>
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="@string/about_store_content"
+                android:layout_below="@+id/about_info"
+                style="@style/about_stylista" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

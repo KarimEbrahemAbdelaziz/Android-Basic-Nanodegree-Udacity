@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ReportCard</string>
+
+    <string name="studentId">Student ID : </string>
+    <string name="studentIdTest">2014760</string>
+
+    <string name="studentName">Student Name : </string>
+    <string name="studentNameTest">Karim Ebrahem</string>
+
+    <string name="course">Course : </string>
+    <string name="courseTest">Math 1</string>
+
+    <string name="grade">Grade : </string>
+    <string name="gradeTest">A</string>
+
+    <string name="semester">Semester : </string>
+    <string name="semesterTest">2014 - 2015</string>
+</resources>

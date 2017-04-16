@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextViewAllSongsTitle"
+        style="@style/TitleTextView"
+        android:text="@string/all_songs" />
+
+    <TextView
+        android:id="@+id/TextViewAllSongsInformation"
+        style="@style/InformationTextView"
+        android:text="@string/information_all_songs"
+        android:layout_below="@id/TextViewAllSongsTitle"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        style="@style/TechnicalInformationTextView"
+        android:layout_below="@id/TextViewAllSongsInformation"
+        android:text="@string/technical_information_all_songs" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnBackToMain"
+            style="@style/OtherActivityButtons"
+            android:text="@string/back_to_main" />
+
+        <Button
+            android:id="@+id/btnNextToNowPlaying"
+            style="@style/OtherActivityButtons"
+            android:text="@string/next_to_now_playing" />
+
+    </LinearLayout>
+
+</RelativeLayout>

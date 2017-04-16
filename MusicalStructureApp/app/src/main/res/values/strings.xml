@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="charts_and_playLists">Charts &amp; PlayLists</string>
+    <string name="albums">Albums</string>
+    <string name="all_songs">All Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="artists">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="music_library">Music Library</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="next_to_now_playing">Next to Now Playing</string>
+    <string name="next_to_songs">Next to Songs</string>
+    <string name="back_to_songs">Back to Songs</string>
+    <string name="information_playlist">This activity will show user created playlists and current chartbuster Song Playlists.</string>
+    <string name="information_albums">This activity will show Albums.</string>
+    <string name="information_all_songs">This activity will show all songs listed in ascending order.</string>
+    <string name="information_now_playing">This activity will show the current playing song. A user can do several actions like pause, play, play next, play previous to a list of songs. </string>
+    <string name="information_songs">This activity will show a list of songs, chosen by user. This list could be a album, playlist or number of songs listed by artist.</string>
+    <string name="information_artists">This activity will show all songs listed by Artists.</string>
+
+    <string name="technical_information_playlist">This activity should have a RecyclerView class and ArrayList class to visually represent multiple user-created playlists and current chartbuster Song Playlists.</string>
+    <string name="technical_information_albums">This activity should have a RecyclerView class and ArrayList class to visually represent multiple Albums.</string>
+    <string name="technical_information_all_songs">This activity should have a RecyclerView class and ArrayList class to visually represent all the Songs stored in local and external storage.</string>
+    <string name="technical_information_now_playing">This activity should contain a MediaPlayer Class to call methods like selectTrack, getTrackInfo, start, pause, and much more.</string>
+    <string name="technical_information_songs">This activity should have a RecyclerView class and ArrayList class to visually represent all the songs, chosen by user.</string>
+    <string name="technical_information_artists">This activity should have a RecyclerView class and ArrayList class to visually represent all songs listed by Artists.</string>
+
+
+</resources>

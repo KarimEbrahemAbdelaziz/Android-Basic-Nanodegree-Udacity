@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleTextView"
+        android:id="@+id/TextViewPlayListTitle"
+        android:text="@string/charts_and_playLists" />
+
+    <TextView
+        android:id="@+id/TextViewPlaylistInformation"
+        style="@style/InformationTextView"
+        android:text="@string/information_playlist"
+        android:layout_below="@id/TextViewPlayListTitle" />
+
+    <TextView
+        style="@style/TechnicalInformationTextView"
+        android:layout_below="@id/TextViewPlaylistInformation"
+        android:text="@string/technical_information_playlist" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnBackToMain"
+            style="@style/OtherActivityButtons"
+            android:text="@string/back_to_main" />
+
+        <Button
+            android:id="@id/btnNextToSongs"
+            style="@style/OtherActivityButtons"
+            android:text="@string/next_to_songs" />
+    </LinearLayout>
+
+</RelativeLayout>

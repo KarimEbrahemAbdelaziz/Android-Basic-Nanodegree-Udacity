@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="quizzy">Quizzy</string>
+    <string name="submit_btn">Submit</string>
+    <string name="image_description">Trophy_Image</string>
+
+    <!-- Question one information. -->
+    <string name="firstQuestion">Q1 :  What is the next prime number after 7 ?</string>
+    <string name="Q1_A1">8</string>
+    <string name="Q1_A2">9</string>
+    <string name="Q1_A3">10</string>
+    <string name="Q1_A4">11</string>
+
+    <!-- Question two information. -->
+    <string name="secondQuestion">Q2 : What does 3 squared equal ?</string>
+    <string name="Q2_A1">6</string>
+    <string name="Q2_A2">9</string>
+    <string name="Q2_A3">12</string>
+    <string name="Q2_A4">27</string>
+
+    <!-- Question three information. -->
+    <string name="thirdQuestion">Q3 : How many sides does a nonagon have ?</string>
+    <string name="Q3_A1">3</string>
+    <string name="Q3_A2">4</string>
+    <string name="Q3_A3">9</string>
+    <string name="Q3_A4">6</string>
+
+    <!-- Question four information. -->
+    <string name="fourthQuestion">Q4 : True or false? -2 is an integer.</string>
+
+    <!-- Question five information. -->
+    <string name="fifthQuestion">Q5 : 87 + 56 = ?</string>
+    <string name="Q5_A1">143</string>
+    <string name="Q5_A2">122</string>
+    <string name="Q5_A3">153</string>
+    <string name="Q5_A4">111 + 32</string>
+
+    <!-- Question sixth information. -->
+    <string name="sixthQuestion">Q6 : True or false? -4 is a natural number.</string>
+
+    <!-- Edit text hint. -->
+    <string name="editText_hint">Answer Here ..</string>
+
+</resources>
