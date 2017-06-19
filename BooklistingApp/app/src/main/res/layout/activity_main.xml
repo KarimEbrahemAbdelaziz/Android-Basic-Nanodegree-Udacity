@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pc.booklistingapp.MainActivity">
+
+    <LinearLayout
+        style="@style/search_theme_style">
+
+        <EditText
+            android:id="@+id/edit_text_search"
+            style="@style/search_text_style"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            style="@style/search_btn_style"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_information"
+        style="@style/info_view"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        style="@style/rec_view_style"/>
+
+</LinearLayout>
